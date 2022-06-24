@@ -70,7 +70,7 @@ body {
   top: 29%;
   z-index: 9999;
   transition: all .4s ease-out;
-  transform: translateX(-201%) translateZ(2px);
+  transform: translateX(-301%) translateZ(2px);
   font-size: 40px;
   font-family: Arial,sans-serif;
   font-weight: 700;
@@ -185,7 +185,7 @@ body {
 
 .orientationWarning {
   display: none;
-  background-color: #F00;
+  /* background-color: #F00;
   position: absolute;
   width: 75%;
   padding: 28px;
@@ -200,7 +200,7 @@ body {
   font-weight: 700;
   color: #FFF;
   text-align: center;
-  transform: translateZ(2px);
+  transform: translateZ(2px); */
 }
 
 .preload {

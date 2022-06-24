@@ -215,7 +215,7 @@ var App = {
 
   hideModal: function(id) {
     var modal = document.querySelectorAll('#' + id)[0];
-    modal.style[Modernizr.prefixed('transform')] = 'translateX(-201%) translateZ(2px)';
+    modal.style[Modernizr.prefixed('transform')] = 'translateX(-301%) translateZ(2px)';
   },
 
   showInstructionModal: function() {
@@ -223,8 +223,8 @@ var App = {
     var emailLink = document.querySelectorAll('#emailAddress')[0];
 
     // Obfuscated to avoid spam
-    emailLink.href = 'mailto:ce' + 'cese.rummy@gmail.com';
-    emailLink.textContent = 'ceces' + 'e.rummy@gmail.com';
+    // emailLink.href = 'mailto:ce' + 'cese.rummy@gmail.com';
+    // emailLink.textContent = 'ceces' + 'e.rummy@gmail.com';
 
     App.showModal('instructionModal');
   },
